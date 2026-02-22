@@ -1,7 +1,7 @@
-VIN Scraping Workflow: Multi‑Source Decoding & Integration System
+# H1 VIN Scraping Workflow: Multi‑Source Decoding & Integration System
 This workflow supports the end‑to‑end processing of large VIN datasets by combining three independent decoding sources—VINAudit, NHTSA, and Blackbook—into a unified, validated output. It was designed to streamline recurring VIN‑processing cycles, reduce manual effort, and ensure consistent, accurate decoding across multiple platforms.
 
-Purpose of the Workflow
+## H2 Purpose of the Workflow
 Organizations often rely on VIN data from multiple external sources, each with its own format, decoding logic, and output structure. This workflow provides a repeatable, documented system that:
 - prepares and standardizes VIN input files
 - automates decoding through Python scripts, SQL Server, and GUI tools
@@ -11,9 +11,9 @@ Organizations often rely on VIN data from multiple external sources, each with i
 The result is a reliable, auditable process that reduces manual work and ensures consistent data quality.
 
 
-System Overview
+## H2 System Overview
 
-VINAudit Automation (Python + GUI)
+## H3 VINAudit Automation (Python + GUI)
 A Python‑based GUI allows non‑technical users to select input files and output locations. The script processes VINs in batches of 1,000 and generates multiple output files. A separate Python script merges these batch outputs into a single dataset.
 Capabilities:
 - GUI‑driven file selection
