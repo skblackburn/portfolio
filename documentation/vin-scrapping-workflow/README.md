@@ -65,7 +65,11 @@ After each source is processed, a final Python script standardizes column names 
 - duplicate removal  
 - unified output generation  
 
-High‑Level Workflow
+---
+
+## **High‑Level Workflow**
+
+```
 Qualtrics / Source File
         ↓
 Input Preparation
@@ -80,39 +84,46 @@ Individual Outputs
 Final Merge Script (Python)
         ↓
 Unified VIN Dataset
+```
 
+---
 
+## **Key Features**
 
-Key Features
-- multi‑source VIN decoding
-- Python automation with GUI support
-- SQL Server stored procedure execution
-- batch processing for large VIN volumes
-- data validation and reconciliation
-- fully documented workflow for repeatability
-- modular design for monthly/quarterly updates
+- multi‑source VIN decoding  
+- Python automation with GUI support  
+- SQL Server stored procedure execution  
+- batch processing for large VIN volumes  
+- data validation and reconciliation  
+- fully documented workflow for repeatability  
+- modular design for monthly/quarterly updates  
 
-Skills Demonstrated
-- Python scripting and automation
-- GUI development
-- SQL Server database restoration and management
-- stored procedure execution and validation
-- data engineering and ETL workflow design
-- Excel‑based data preparation and reconciliation
-- technical documentation and process standardization
+---
 
-Files Included in This Folder
-- Work Instructions (redacted) — High‑level documentation outlining the full VIN‑scraping workflow, including preparation steps, decoding processes, and integration logic.
-- README.md — Overview of the system architecture, purpose, and key components of the multi‑source VIN decoding pipeline.
-- Workflow Diagram (optional) — A visual representation of the end‑to‑end VIN processing pipeline, showing how VINAudit, NHTSA, and Blackbook outputs flow into the final integration step. This diagram helps viewers quickly understand the structure and dependencies of the system.
-- Sample Input/Output Files (optional) — Small, anonymized examples demonstrating the expected structure of VIN input files and the standardized format of the final merged output. These samples illustrate how the workflow transforms raw VIN lists into a unified, decoded dataset.
+## **Skills Demonstrated**
 
-Redaction Notice
+- Python scripting and automation  
+- GUI development  
+- SQL Server database restoration and management  
+- stored procedure execution and validation  
+- data engineering and ETL workflow design  
+- Excel‑based data preparation and reconciliation  
+- technical documentation and process standardization  
+
+---
+
+## **Files Included in This Folder**
+
+- **Work Instructions (redacted)** — High‑level documentation outlining the full VIN‑scraping workflow, including preparation steps, decoding processes, and integration logic.  
+- **README.md** — Overview of the system architecture, purpose, and key components of the multi‑source VIN decoding pipeline.  
+- **Workflow Diagram (optional)** — A visual representation of the end‑to‑end VIN processing pipeline, showing how VINAudit, NHTSA, and Blackbook outputs flow into the final integration step. This diagram helps viewers quickly understand the structure and dependencies of the system.  
+- **Sample Input/Output Files (optional)** — Small, anonymized examples demonstrating the expected structure of VIN input files and the standardized format of the final merged output. These samples illustrate how the workflow transforms raw VIN lists into a unified, decoded dataset.  
+
+---
+
+## **Redaction Notice**
+
 This public version of the VIN scraping workflow has been sanitized to remove internal file paths, credentials, server names, and proprietary organizational details. All technical descriptions, workflow steps, and architectural components remain accurate and representative of the full system, but sensitive information has been intentionally omitted to maintain security and confidentiality.
-
-
-
-
 
 
 
