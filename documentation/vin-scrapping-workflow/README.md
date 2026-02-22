@@ -1,51 +1,69 @@
-# H1 VIN Scraping Workflow: Multi‑Source Decoding & Integration System
+# **VIN Scraping Workflow: Multi‑Source Decoding & Integration System**
+
 This workflow supports the end‑to‑end processing of large VIN datasets by combining three independent decoding sources—VINAudit, NHTSA, and Blackbook—into a unified, validated output. It was designed to streamline recurring VIN‑processing cycles, reduce manual effort, and ensure consistent, accurate decoding across multiple platforms.
 
-## H2 Purpose of the Workflow
+## **Purpose of the Workflow**
+
 Organizations often rely on VIN data from multiple external sources, each with its own format, decoding logic, and output structure. This workflow provides a repeatable, documented system that:
-- prepares and standardizes VIN input files
-- automates decoding through Python scripts, SQL Server, and GUI tools
-- processes large VIN volumes in batches
-- reconciles and merges outputs from three independent decoding systems
-- produces a single, consolidated VIN dataset for downstream analysis
+
+- prepares and standardizes VIN input files  
+- automates decoding through Python scripts, SQL Server, and GUI tools  
+- processes large VIN volumes in batches  
+- reconciles and merges outputs from three independent decoding systems  
+- produces a single, consolidated VIN dataset for downstream analysis  
+
 The result is a reliable, auditable process that reduces manual work and ensures consistent data quality.
 
+---
 
-## H2 System Overview
+## **System Overview**
 
-## H3 VINAudit Automation (Python + GUI)
+### **VINAudit Automation (Python + GUI)**
+
 A Python‑based GUI allows non‑technical users to select input files and output locations. The script processes VINs in batches of 1,000 and generates multiple output files. A separate Python script merges these batch outputs into a single dataset.
-Capabilities:
-- GUI‑driven file selection
-- batch processing
-- automated scraping
-- output consolidation
 
-NHTSA VIN Decoding (SQL Server + Python)
+**Capabilities:**
+- GUI‑driven file selection  
+- batch processing  
+- automated scraping  
+- output consolidation  
+
+---
+
+### **NHTSA VIN Decoding (SQL Server + Python)**
+
 This component uses the official NHTSA vPIC database, restored locally through SQL Server Management Studio. Python scripts connect to SQL Server, execute stored procedures, and decode VINs using authoritative NHTSA data.
-Capabilities:
-- SQL Server database restoration
-- stored procedure validation
-- Python‑SQL integration
-- logging and error handling
-- monthly/quarterly update support
 
-Blackbook VIN Processing (Web Platform)
+**Capabilities:**
+- SQL Server database restoration  
+- stored procedure validation  
+- Python‑SQL integration  
+- logging and error handling  
+- monthly/quarterly update support  
+
+---
+
+### **Blackbook VIN Processing (Web Platform)**
+
 VIN files are uploaded through the Blackbook web interface, mapped to the correct fields, processed, and downloaded. The workflow includes steps for reconciling main and secondary output files and removing duplicates.
-Capabilities:
-- web‑based VIN decoding
-- header validation
-- duplicate management
-- manual reconciliation for accuracy
 
-Final Integration (Python Merge Script)
+**Capabilities:**
+- web‑based VIN decoding  
+- header validation  
+- duplicate management  
+- manual reconciliation for accuracy  
+
+---
+
+### **Final Integration (Python Merge Script)**
+
 After each source is processed, a final Python script standardizes column names and merges the three datasets into one unified VIN file. This ensures consistent structure and eliminates duplicate records.
-Capabilities:
-- cross‑source reconciliation
-- column standardization
-- duplicate removal
-- unified output generation
 
+**Capabilities:**
+- cross‑source reconciliation  
+- column standardization  
+- duplicate removal  
+- unified output generation  
 
 High‑Level Workflow
 Qualtrics / Source File
