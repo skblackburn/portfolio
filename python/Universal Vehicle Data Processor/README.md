@@ -31,7 +31,7 @@ This interface provides a structured, multi-step workflow for loading OEM input 
 
 **Screenshot 1: Main Application Window**  
 
-![Main GUI Screenshot](portfolio/screenshots/gui_main.png)
+![Main GUI Screenshot](https://github.com/skblackburn/portfolio/blob/main/screenshots/GUI%20Image.jpg)
 
 
 
