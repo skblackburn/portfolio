@@ -1,0 +1,80 @@
+vin_mappings:
+  - vin13: "GLC"
+    vin48: "KJ8AB"
+    vin10: "S"
+    cell: 100001
+    brand: 290
+    desc: "Sample Vehicle 1"
+    modelid: ""
+
+  - vin13: "GLC"
+    vin48: "KM5GB"
+    vin10: "S"
+    cell: 100232
+    brand: 290
+    desc: "Sample Vehicle 2"
+    modelid: ""
+
+  - vin13: "EQS"
+    vin48: "DM2DB"
+    vin10: "S"
+    cell: 100002
+    brand: 290
+    desc: "Sample Vehicle 3"
+    modelid: ""
+
+  - vin13: "G55"
+    vin48: "WH1AB"
+    vin10: "S"
+    cell: 100236
+    brand: 290
+    desc: "Sample Vehicle 4"
+    modelid: ""
+
+  - vin13: "AMG"
+    vin48: "GM5DB"
+    vin10: "S"
+    cell: 100007
+    brand: 290
+    desc: "Sample Vehicle 5"
+    modelid: ""
+
+  - vin13: "GLC"
+    vin48: "KJ8AB"
+    vin10: "S"
+    cell: 100239
+    brand: 290
+    desc: "Sample Vehicle 6"
+    modelid: ""
+
+  - vin13: "GLE"
+    vin48: "FB4FB"
+    vin10: "S"
+    cell: 100009
+    brand: 290
+    desc: "Sample Vehicle 7"
+    modelid: ""
+
+  - vin13: "G63"
+    vin48: "WH5AB"
+    vin10: "S"
+    cell: 100236
+    brand: 290
+    desc: "Sample Vehicle 8"
+    modelid: ""
+    
+  - vin13: "GLE"
+    vin48: "FB6BE"
+    vin10: "S"
+    cell: 1000445
+    brand: 290
+    desc: "Sample Vehicle 9"
+    modelid: ""
+
+  - vin13: "GLS"
+    vin48: "FF5KE"
+    vin10: "S"
+    cell: 100236
+    brand: 290
+    desc: "Sample Vehicle 10"
+    modelid: ""
