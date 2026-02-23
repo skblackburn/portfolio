@@ -33,7 +33,6 @@ This interface provides a structured, multi-step workflow for loading OEM input 
 
 
 
-![Universal Vehicle Data Processor - Image](https://github.com/user-attachments/assets/f9356745-ef1b-4329-a6d0-004552cda5e5)
 
 
 
