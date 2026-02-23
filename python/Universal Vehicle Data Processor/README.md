@@ -37,7 +37,7 @@ This interface provides a structured, multi-step workflow for loading OEM input 
 
 
 **Screenshot 2: Processing in Action**  
-*(Insert screenshot here)*
+![Processing Complete Screenshot](https://github.com/skblackburn/portfolio/blob/main/screenshots/GUI%20Image%20-%20Processing%20Complete-Redacted.jpg)
 
 ---
 
