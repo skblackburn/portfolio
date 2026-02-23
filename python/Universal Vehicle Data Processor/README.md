@@ -41,6 +41,14 @@ This interface provides a structured, multi-step workflow for loading OEM input 
 
 ---
 
+### 📁 Output Files Generated
+
+The Universal Vehicle Data Processor produces a complete set of cleaned, merged, deduplicated, and panel‑ready output files. This screenshot shows an example of the output folder generated for a single manufacturer/month run.
+
+![Output Files Screenshot](https://github.com/skblackburn/portfolio/blob/main/screenshots/GUI%20-%20Output%20Files%20Generated.jpg)
+
+---
+
 ## Architecture
 
 ### GUI Layer
