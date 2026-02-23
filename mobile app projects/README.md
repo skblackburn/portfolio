@@ -1,5 +1,5 @@
 <details>
-<summary><strong>Mobile App Projects</strong></summary>
+##<summary><strong>Mobile App Projects</strong></summary>
 
 <br>
 
@@ -9,7 +9,7 @@ DriveIQ is designed as a next‑generation automotive research and engagement pl
 
 I have created extensive internal documentation covering user flows, behavioral design, analytics, and technical architecture. These materials are not published publicly but demonstrate my ability to design complex, multi‑feature systems from the ground up.
 
-### Design Philosophy
+## Design Philosophy
 DriveIQ is built around the idea that automotive research can be engaging, ethical, and user‑centered. The concept emphasizes privacy, transparency, and Apple‑native interaction patterns that make participation feel intuitive and rewarding.
 
 ### Status
