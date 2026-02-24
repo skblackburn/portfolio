@@ -1,3 +1,4 @@
+<!--
 ### The Carl‑Kay Café Menu Project
 
 <details>
@@ -14,3 +15,4 @@ The final menu spans more than fifty pages and organizes our recipes into catego
 This project reflects my focus on **accessibility**, **visual communication**, and **user‑centered design**—creating tools that meet people where they are and make everyday tasks easier and more enjoyable.
 
 </details>
+-->
